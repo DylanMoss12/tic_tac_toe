@@ -2,7 +2,7 @@
 
 # this class is to play tic tac toe
 class Game
-  attr_accessor :board
+  attr_accessor :board, :player1, :player2, :player_position, :current_player
   def initialize
     @board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
     puts 'Who is naughts? (Enter name)'
